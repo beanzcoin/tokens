@@ -1,0 +1,189 @@
+{
+  "contractName": "IBeanzFounder",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "subscribe",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"subscribe\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/edinhadzovic/github/beanz-coin/tokens/contracts/interfaces/IBeanzFounder.sol\":\"IBeanzFounder\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/edinhadzovic/github/beanz-coin/tokens/contracts/interfaces/IBeanzFounder.sol\":{\"keccak256\":\"0x60d6149710420d712207c1c3afb439bf947a473cb5c2d5afd4b88b4ac53d8d33\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://443a47cb854823849a9662a9e7201d2c3019458c0d66ee2e14ce238b0499698a\",\"dweb:/ipfs/QmTm7pBT5qTbyLaVpb7qYd99yD1X3yCcnjr4DsPmHnspgD\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.7.0 <0.9.0;\n\ninterface IBeanzFounder {\n    function subscribe() external;\n}\n",
+  "sourcePath": "/Users/edinhadzovic/github/beanz-coin/tokens/contracts/interfaces/IBeanzFounder.sol",
+  "ast": {
+    "absolutePath": "/Users/edinhadzovic/github/beanz-coin/tokens/contracts/interfaces/IBeanzFounder.sol",
+    "exportedSymbols": {
+      "IBeanzFounder": [
+        64
+      ]
+    },
+    "id": 65,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 60,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:31:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IBeanzFounder",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 64,
+        "linearizedBaseContracts": [
+          64
+        ],
+        "name": "IBeanzFounder",
+        "nameLocation": "75:13:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "8f449a05",
+            "id": 63,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "subscribe",
+            "nameLocation": "104:9:1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 61,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "113:2:1"
+            },
+            "returnParameters": {
+              "id": 62,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:0:1"
+            },
+            "scope": 64,
+            "src": "95:30:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 65,
+        "src": "65:62:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:96:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/edinhadzovic/github/beanz-coin/tokens/contracts/interfaces/IBeanzFounder.sol",
+    "exportedSymbols": {
+      "IBeanzFounder": [
+        64
+      ]
+    },
+    "id": 65,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 60,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:31:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IBeanzFounder",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 64,
+        "linearizedBaseContracts": [
+          64
+        ],
+        "name": "IBeanzFounder",
+        "nameLocation": "75:13:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "8f449a05",
+            "id": 63,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "subscribe",
+            "nameLocation": "104:9:1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 61,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "113:2:1"
+            },
+            "returnParameters": {
+              "id": 62,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:0:1"
+            },
+            "scope": 64,
+            "src": "95:30:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 65,
+        "src": "65:62:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:96:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-10-20T14:28:13.184Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
